@@ -20,12 +20,7 @@
 
 > **Live End-to-End Walkthrough:** Adaptive YOLO26n + ByteTrack tracking, interactive playback controls, Qwen3-VL 3-frame RAG search, and Model Registry governance.
 
-<!--
-📌 GITHUB UPLOAD PLACEHOLDER:
-Open README.md in GitHub's web editor and drag-and-drop `assets/Arabian Wildlife Al Agent.mp4`
-directly here to replace this comment with GitHub's native HD video embed:
-https://github.com/user-attachments/assets/<your-video-id>
--->
+https://github.com/user-attachments/assets/e75dcf8f-4f68-4046-96d5-ec2012797844
 
 ---
 
