@@ -1,0 +1,55 @@
+# ==============================================================================
+# Arabian Wildlife Agentic Vision, Distillation & RAG System — .gitignore
+# ==============================================================================
+
+# --- Model Weights, Checkpoints & Archives (Private IP) ---
+*.pt
+*.pth
+*.onnx
+*.engine
+*.safetensors
+*.bin
+*.zip
+models/
+
+# --- Raw Videos, Datasets & Pipeline Staging Outputs ---
+*.mp4
+*.avi
+*.mov
+*.mkv
+dataset*/
+outputs/
+out_*/
+_staging/
+buckets*/
+
+# --- Vector Databases, Training Runs & Logs ---
+chroma_db/
+chromadb/
+wandb/
+runs/
+*.log
+*.jsonl
+
+# --- Secrets, Environment & Python Tooling ---
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# --- Explicitly Track Portfolio Visuals & Sanitized Registry ---
+!assets/*.png
+!assets/*.jpg
+!assets/*.gif
+!registry.json
+assets/*.mp4
+assets/*.mov
+assets/*.avi
+assets/*.mkv
